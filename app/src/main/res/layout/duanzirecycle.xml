@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <com.bwie.voovapp.coustom.RoundImageView
+            android:id="@+id/headIma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/duanzi_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="qweqe" />
+
+            <TextView
+                android:lineSpacingExtra="3dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/duanzi_time"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="qweqewr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"></LinearLayout>
+    </LinearLayout>
+
+    <TextView
+       android:textScaleX="1.2"
+        android:id="@+id/context_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="adsfgfaerdgfwasffafdfaffwedfaff"
+        android:textColor="#000"
+        android:textSize="18dp" />
+</LinearLayout>
